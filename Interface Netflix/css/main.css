@@ -1,0 +1,73 @@
+
+/*VARIÁVEIS*/
+:root {
+  --vermelho: #e50914;
+  --preta:#141414;     
+}
+
+
+/*TODO O DOCUMENTO*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preta);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: Arial, Helvetica, sans-serif, times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*FILME PRINCIPAL*/
+
+.filme-principal {
+  font-size: 16px;
+  background: /*linear-gradient(rgba(0,0,0,.50), linear-gradient(rgba(0,0,0,.50), */url("/Interface\ Netflix/imgs/capa-house.jpg"); 
+
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal {
+  background: linear-gradient(rgba(0,0,0.50)), rgba(0,0,0.50);
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+
+}
+
+.titulo {
+  font-size: 40px;
+}
+
