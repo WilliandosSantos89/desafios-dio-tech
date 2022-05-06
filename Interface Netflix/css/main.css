@@ -47,7 +47,7 @@ header nav a:hover {
 
 .filme-principal {
   font-size: 16px;
-  background: /*linear-gradient(rgba(0,0,0,.50), linear-gradient(rgba(0,0,0,.50), */url("/Interface\ Netflix/imgs/capa-house.jpg"); 
+  background: /* linear-gradient(rgba(0,0,0,.50), linear-gradient(rgba(0,0,0,.50), */url("/Interface\ Netflix/imgs/capa-house.jpg"); 
 
   height: 400px;
   background-size: cover;
@@ -58,8 +58,8 @@ header nav a:hover {
   align-items: flex-start;
 }
 
-.filme-principal {
-  background: linear-gradient(rgba(0,0,0.50)), rgba(0,0,0.50);
+/*.filme-principal {
+  background: linear-gradient(rgba(0,0,0.50)), rgba(0,0,0.50);*/
 }
 
 .filme-principal .descricao {
