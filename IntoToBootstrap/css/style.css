@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgb(33, 6, 59);
+}
+
+.Home {
+  background-color: rgb(255, 247, 0);
+  text-align: center;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 5ch;
+  font-style: normal;
+  color: black;
+}
+
+.margin {
+  padding-left: 0rem;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.h2 {
+  text-transform: lowercase;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.quem-somos {
+  text-align: center;
+}
+
+.img {
+  height: 100;
+  width: 100;
+  
+}
+
+.rodape {
+  text-align: center;
+}
