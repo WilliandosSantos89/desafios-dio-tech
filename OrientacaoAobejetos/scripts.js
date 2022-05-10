@@ -45,3 +45,25 @@ class ContaCorrente {
         this.cartaoCredito = valor
     }
 }
+
+class ContaPoupanca {
+    constructor(agencia, numero, saldo) {
+        super(agencia, numero, saldo);
+        this.tipo = 'poupanca';        
+    }    
+}
+
+class ContaUniversitaria {
+    constructor(agencia, numero, saldo) {
+        super(agencia, numero, saldo);
+        this.tipo = 'universitaria';        
+    }    
+
+    sacar(valor) {
+        if(valor > 500) {
+            return "Operação Negada";
+        }
+
+        this._saldo = this._saldo - valor;
+    }
+}
