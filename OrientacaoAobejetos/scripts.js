@@ -29,3 +29,19 @@ class ContaBancaria {
         return this._saldo;
     }
 }
+
+class ContaCorrente {
+    constructor(agencia, numero, saldo) {
+        super(agencia, numero, saldo);
+        this.tipo = 'corrente';
+        this.cartaoCredito = 'cartaoCredito';
+    }
+
+    get cartaoCredito() {
+        return this._cartaoCredito;
+    }
+
+    set cartaoCredito(valor) {
+        this.cartaoCredito = valor
+    }
+}
