@@ -1,12 +1,13 @@
 function changeMode() {
     changeClasses();
+    changeText();
 }
 
 function changeClasses() {
-    button.classList.toggle('darkModeClass');
-    h1.classList.toggle('darkModeClass');
-    body.classList.toggle('darkModeClass');
-    footer.classList.toggle('darkModeClass');
+    button.classList.toggle(darkModeClass);
+    h1.classList.toggle(darkModeClass);
+    body.classList.toggle(darkModeClass);
+    footer.classList.toggle(darkModeClass);
 }
 
 function changeText() {
@@ -14,10 +15,15 @@ function changeText() {
     const lightMode = "Light Mode";
     const darkMode = "Dark Mode";
 
-    if(body.classList.contains('darkModeClass')) {
-        body.innerHTML = lightMode;
-        h1.innerHTML = darkMode + " ON"
+    if(body.classList.contains(darkModeClass)) {
+        button.innerHTML = lightMode;
+        h1.innerHTML = darkMode + " ON";
+        return;
     }
+
+        button.innerHTML = lightMode;
+        h1.innerHTML = lightMode + " ON";
+
 }
 
 const darkModeClass = 'dark-mode';
